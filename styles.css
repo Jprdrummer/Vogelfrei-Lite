@@ -134,7 +134,7 @@ button:focus-visible {
   height: var(--nav-height);
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(247, 243, 232, 0.88);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -281,8 +281,8 @@ button:focus-visible {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 30% 20%, rgba(184, 153, 104, 0.16), transparent 55%),
-    linear-gradient(160deg, #17170f 0%, #0c0c0a 60%);
+    radial-gradient(ellipse at 30% 20%, rgba(214, 169, 40, 0.10), transparent 55%),
+    linear-gradient(160deg, #ffffff 0%, #f7f3e8 60%);
   z-index: 0;
 }
 
@@ -292,8 +292,8 @@ button:focus-visible {
   inset: 0;
   background-image: repeating-linear-gradient(
     115deg,
-    rgba(243, 234, 217, 0.025) 0px,
-    rgba(243, 234, 217, 0.025) 1px,
+    rgba(27, 26, 24, 0.025) 0px,
+    rgba(27, 26, 24, 0.025) 1px,
     transparent 1px,
     transparent 6px
   );
