@@ -5,9 +5,9 @@
 
 :root {
   /* ---- Colors (edit these to reskin the whole site) ---- */
-  --color-bg: #f7f2e7;
-  --color-bg-raised: #ead8a8;
-  --color-bg-raised-2: #dfc47c;
+  --color-bg: #ffffff;
+  --color-bg-raised: #f7f3e8;
+  --color-bg-raised-2: #ead8a8;
   --color-text: #1b1a18;
   --color-text-muted: #a8a8a8;
   --color-text-faint: #6e6e6e;
