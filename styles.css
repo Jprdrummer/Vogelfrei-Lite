@@ -299,9 +299,7 @@ button:focus-visible {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse at 30% 20%, rgba(214, 169, 40, 0.10), transparent 55%),
-    linear-gradient(160deg, #ffffff 0%, #f7f3e8 60%);
+  background: #ffffff;
   z-index: 0;
 }
 
@@ -316,7 +314,7 @@ button:focus-visible {
     transparent 1px,
     transparent 6px
   );
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .hero-watermark {
@@ -351,10 +349,14 @@ button:focus-visible {
 
 .hero-content h1 .sub {
   display: block;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 500;
-  color: var(--color-accent);
+  font-family: var(--font-label);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.22em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  margin-top: 18px;
 }
 
 .hero-rule {
